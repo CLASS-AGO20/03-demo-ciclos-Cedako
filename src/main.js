@@ -59,3 +59,4 @@ let app = new App();
 console.log(app.sumarParesFor());
 console.log(app.contarImparesFor(1, 800));
 console.log(app.sumarParesWhile());
+console.log(app.contarImparesWhile(888, 999));
