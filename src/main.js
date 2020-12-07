@@ -9,17 +9,22 @@ export default class App {
         return suma;
     }
 
-    contarImparesFor() {
+    contarImparesFor(inicio, fin) {
         let impares=0;
-        for (let i=1; i<=2000; i = i+1) {
+        for (let i=inicio; i<=fin; i = i+1) {
             if (i%2 !== 0) {
                 impares = impares + 1;
             }
         }
         return impares;
     }
+
+    sumarParesWhile(inicio, fin) {
+
+    }
 }
 
 let app = new App();
 
 console.log(app.sumarParesFor());
+console.log(app.contarImparesFor(1, 800));
