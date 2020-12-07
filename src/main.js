@@ -92,4 +92,4 @@ console.log(app.sumarParesWhile());
 console.log(app.contarImparesWhile(888, 999));
 console.log(app.sumarImparesDo());
 console.log(app.contarImparesDo(120, 1924));
-//github and npm are having some problems
+//github and npm are having some problems.
