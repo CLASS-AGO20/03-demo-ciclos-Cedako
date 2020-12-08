@@ -50,7 +50,7 @@ export default class App {
             }
             i++
         }
-        return Math.trunc(impares);
+        return Math.round((fin - inicio + 1) / 2);
     }
 
     sumarParesDo() {
