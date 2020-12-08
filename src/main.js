@@ -21,7 +21,7 @@ export default class App {
                 impares++;
             }
         }
-        return impares;
+        Math.trunc(impares);
     }
 
     sumarParesWhile() {
@@ -81,7 +81,7 @@ export default class App {
             i++
         }
         while (i<=fin);
-        return impares;
+        return Math.trunc(impares);
     }
 }
 
