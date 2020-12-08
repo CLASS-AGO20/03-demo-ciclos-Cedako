@@ -81,14 +81,14 @@ export default class App {
             i++
         }
         while (i<=fin);
-        return Math.trunc(impares);
+        return Math.round((fin - inicio + 1) / 2);
     }
 }
 
 let app = new App();
 
 console.log(app.sumarParesFor());
-console.log(app.contarImparesFor(1, 800));
+console.log(app.contarImparesFor(1, 90));
 console.log(app.sumarParesWhile());
 console.log(app.contarImparesWhile(888, 999));
 console.log(app.sumarParesDo());
