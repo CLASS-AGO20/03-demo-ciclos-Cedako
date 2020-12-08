@@ -1,7 +1,7 @@
 export default class App {
     sumarParesFor() {
         let suma = 0;
-        for (let i=1; i<=20; i = i++) {
+        for (let i=1; i<=20; i++) {
             if(i%2 === 0){
                 suma = suma + i;
             }
@@ -10,13 +10,13 @@ export default class App {
     }
 
     contarImparesFor(inicio, fin) {
-        if(inicio>fin){
+        if(inicio>=fin){
             let t=inicio;
             inicio=fin;
             fin=t;
         }
         let impares=0;
-        for (let i=inicio; i<=fin; i = i++) {
+        for (let i=inicio; i<=fin; i++) {
             if (i%2 !== 0) {
                 impares++;
             }
@@ -28,16 +28,16 @@ export default class App {
         let i=1;
         let suma=0;
         while(i<=20) {
-            if (i%2 === 0) {
-                suma=suma+i;
+            if (i%2===0) {
+                suma = suma + i;
             }
-            i++;
+            i= i + 1;
         }
         return suma;
     }
-
+    
     contarImparesWhile(inicio, fin) {
-        if(inicio>fin){
+        if(inicio>=fin){
             let t=inicio;
             inicio=fin;
             fin=t;
@@ -81,6 +81,7 @@ export default class App {
             i++
         }
         while (i<=fin);
+        return impares;
     }
 }
 
