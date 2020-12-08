@@ -50,7 +50,7 @@ export default class App {
             }
             i++
         }
-        return impares;
+        return Math.trunc(impares);
     }
 
     sumarParesDo() {
