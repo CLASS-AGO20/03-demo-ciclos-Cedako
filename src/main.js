@@ -21,7 +21,7 @@ export default class App {
                 impares++;
             }
         }
-        Math.trunc(impares);
+        return Math.trunc(impares);
     }
 
     sumarParesWhile() {
